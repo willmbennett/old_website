@@ -156,7 +156,7 @@ body {
   position: fixed;
   text-align: center;
   width: 40%;
-  background-color: #fff;
+  color: white;
   padding: 20px;
 }
 
@@ -180,8 +180,9 @@ a {
   text-decoration: none;
 }
 
-.feature-text h1 {
+.feature-text a{
   margin: 0;
+  color: white;
 }
 
 .feature-text p {
@@ -215,6 +216,12 @@ ul {
   margin-bottom: 0;
 }
 
+.pointer {
+  pointer-events: none;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='your_transparent.png', sizingMethod='scale');
+  background: none !important;
+}
+
 .cover-clear-wrapper {
   height: 85vh;
   top: 0;
@@ -226,6 +233,7 @@ ul {
   position: relative;
   width: 100%;
   z-index: 50;
+  pointer-events: auto;
   height: 650px;
 }
 
@@ -301,6 +309,7 @@ ul {
   margin: 0;
   padding: 0;
   height: 670px;
+  pointer-events: auto;
 }
 
 .background-image {
@@ -340,6 +349,7 @@ ul {
   width: 100%;
   z-index: 50;
   height: 400px;
+  pointer-events: auto;
 }
 
 .contact-card {
