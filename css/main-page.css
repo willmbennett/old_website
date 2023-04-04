@@ -52,17 +52,17 @@
   display: block;
   padding: 0px 10px;
   float: right;
-  color: white;
+  color: black;
   z-index: 100;
 }
 
 .fa:before {
-  color: white;
+  color: black;
 }
 
 .topnav-right {
   float: right;
-  color: white;
+  color: black;
 }
 
 .topnav .topnav-right a.icon {
@@ -83,7 +83,7 @@
     float: none;
     text-align: left;
     width: 100%;
-    background-color: #323232;
+    background-color: white;
     opacity: .95;
     filter: alpha(opacity=95); /* IE8 and lower */
   }
@@ -110,6 +110,7 @@
 
   .topnav.responsive a.topnav-left {
     display: block;
+    padding-top: 45px;
   }
 }
 
