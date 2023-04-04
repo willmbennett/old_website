@@ -1,6 +1,6 @@
 /*--NavBar--*/
 .topnav {
-  background-color: #323232;
+  background-color: white;
   top: 0;
   width: 100%;
   margin: 0;
@@ -14,7 +14,7 @@
 }
 
 .topnav a{
-  color: white;
+  color: black;
   float: left;
   padding: 3px 16px;
   text-decoration: none;
@@ -32,7 +32,7 @@
 }
 
 .topnav .nav-option {
-  color: white;
+  color: black;
 }
 
 .topnav .nav-option.fa {
