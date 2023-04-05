@@ -2,10 +2,13 @@
 <html lang="en-US">
 <head>
   <title>Will Bennett</title>
-  <link rel="icon" href="photos/amy-icon.png" type="image/gif" sizes="16x16">
+  <!-- Style Sheets -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/main-page.css">
+	<link rel="stylesheet" type="text/css" href="css/body.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Scripts -->
   <script src="scripts/home-page-scripts.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
@@ -22,36 +25,23 @@
 	<meta property="og:description" content="Technical Product Manager and Data Expert">
 	<meta property="og:image" content="https://lh3.googleusercontent.com/todSRTbqWEDGT8w5XSWs1_jgTP7B4kUst6FnSJHsqtevQ5G-N0dG265GkCNoEZ08VBrZtVk7hQuOo96gInV0aFYeddT3j3t03cHBaI-AjWCCchyFHB67h96Lx-gOV1TbtqTSHS1fC7gJOexGsmw7QqVsmFCZl5mF-WTR_7pvAfBPdKzon8KfhgSgbY-IEHVwL-Md9M5g65vrVTmCUO9mp27Mo17cjIpH6rB9GmtDEunS2pVSutvB9q-Q-OSPmty4RB5MhDuT5c-AIM7C6HiIWiqQw4vEPZyHaBLCrPnBbqUdvKqucIo3s5bw321l3L8vkeJm8ZdzPmHIaaAFDm9eHTf7oTdIh6RGCGqorEscN1d76PjjH2K96Ppxj__2oieUyUI3TGmz-rF_-XOdG9C5aI82E5C1caDPblZInmSGqcDeyu2PAxWU2lEzoTDTU2OZw-l5g_3K3HWGhxx8uVXdnJkqeWBw_VfJaeipyW6YGH9inuCB0KLQQwh_1JopBNGqTgt6O0_agMZyajd-JpG7Lb-VHSnWq0I0qXOtmXZnphh9YSPb2EwuTWDgi58Kif4FvyjkDaBuMaor7yyow0fkeHmNggwXdWBRqjjxdTGdMKQv54WX3_T3P5XRqu8v4FmR9pWMJGa-uRdQwyAoQX2p8ndX0g=w1122-h1494-no">
   <meta property="site-creator" content="Will Bennett">
+  <!-- Facebook -->
+  <script src="scripts/header.js" type="text/javascript" defer></script>
 </head>
 <body>
-<div class="topnav" id="myTopnav">
-  <a class="nav-option topnav-left" href="#">Blog</a>
-  <a href="https://www.linkedin.com/in/will-bennett-8a24b747/" target="_blank" class="nav-option topnav-left fa fa-linkedin"></a>
-  <!-- Centered link -->
-  <div class="topnav-centered">
-    <a class="nav-option" href="#">William Bennett</a>
-  </div>
-  <div class="topnav-right">
-    <a href="https://www.linkedin.com/in/will-bennett-8a24b747/" target="_blank" class="fa fa-linkedin"></a>
-    <a href="javascript:void(0);" class="icon" onclick="navbarfun()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-	
-</div>
-<div class="featured-post" id="featured-post">
-  <img class="header-image" src="photos/laptop.jpg">
-  <div class="card feature-text">
-    <p>Featured Blog Post</p>
-    <h1><a class="feature-link" href="#blog">Why I left Product Management to do a Data Science Bootcamp</a></h1>
-  </div>
-</div>
+  <header-component></header-component>
 
 <script>
 window.onscroll = function() {hidefeaturedpost()};
 </script>
-
 <div class="page-wrapper pointer">
+  <div class="featured-post" id="featured-post">
+    <img class="header-image" src="photos/laptop.jpg">
+    <div class="card feature-text">
+        <p>Featured Blog Post</p>
+        <h1><a class="feature-link" href="#blog">Why I left Product Management to do a Data Science Bootcamp</a></h1>
+    </div>
+</div>
   <ul class="slides pointer">
     <li class="slide pointer">
       <div class="cover-clear-wrapper pointer">

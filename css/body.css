@@ -1,0 +1,14 @@
+/*--Body--*/
+body {
+    margin: 0;
+    font-family: Open Sans; color: black;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 2;
+  }
+  
+  @media screen and (max-width: 600px) {
+    body p {
+      font-size: 14px;
+    }
+  }
